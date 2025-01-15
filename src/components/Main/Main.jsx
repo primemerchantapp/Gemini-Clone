@@ -10,7 +10,7 @@ const Main = () =>{
     return(
         <div className='main'>
             <div className='nav'>
-                <p>Gemini</p>
+                <p>Vepp</p>
                 <img src={assets.user_icon} alt='user icon'/>
             </div>
             <div className='main-container'>
@@ -18,7 +18,7 @@ const Main = () =>{
                 {!showResult?
                     <>                        
                 <div className='greet'>
-                    <p><span>Hello, Buddy.</span></p>
+                    <p><span>Hello, Master.</span></p>
                     <p>How can I help you today?</p>
                 </div>
                 <div className='cards'>
@@ -71,7 +71,7 @@ const Main = () =>{
                         </div>
                     </div>
                     <p className='bottom-info'>
-                        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
+                        Vep is Artificial Inteligence powered by Emilio LLM.
                     </p>
                 </div>
             </div>
